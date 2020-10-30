@@ -75,7 +75,7 @@ function Header({
       <RightAligned>
         <Button
           onClick={() =>
-            copyToClipboard(`https://codesandbox.io${embedUrl(sandbox)}`)
+            copyToClipboard(`https://csb-bogdan.dev${embedUrl(sandbox)}`)
           }
         >
           <LinkIcon />

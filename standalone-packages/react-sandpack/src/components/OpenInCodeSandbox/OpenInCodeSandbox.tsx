@@ -41,7 +41,7 @@ export default class OpenInCodeSandbox extends React.Component<Props> {
       <SandpackConsumer>
         {sandpack => (
           <form
-            action="https://codesandbox.io/api/v1/sandboxes/define"
+            action="https://csb-bogdan.dev/api/v1/sandboxes/define"
             method="POST"
             target="_blank"
             {...props}

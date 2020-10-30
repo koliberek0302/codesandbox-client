@@ -110,14 +110,14 @@ export const SandboxMenu: React.FC<SandboxMenuProps> = ({
       <MenuItem onSelect={() => history.push(url)}>Open {label}</MenuItem>
       <MenuItem
         onSelect={() => {
-          window.open(`https://codesandbox.io${url}`, '_blank');
+          window.open(`https://csb-bogdan.dev${url}`, '_blank');
         }}
       >
         Open {label} in New Tab
       </MenuItem>
       <MenuItem
         onSelect={() => {
-          effects.browser.copyToClipboard(`https://codesandbox.io${url}`);
+          effects.browser.copyToClipboard(`https://csb-bogdan.dev${url}`);
         }}
       >
         Copy {label} Link

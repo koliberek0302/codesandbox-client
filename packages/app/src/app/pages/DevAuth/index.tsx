@@ -47,7 +47,7 @@ export const DevAuthPage = withTheme(({ theme }) => {
       });
   };
 
-  const baseSignInDomain = process.env.ENDPOINT || 'https://codesandbox.io';
+  const baseSignInDomain = process.env.ENDPOINT || 'https://csb-bogdan.dev';
   const cliLoginUrl = `${baseSignInDomain}/cli/login`;
   return (
     <ThemeProvider theme={theme.vsCode}>
@@ -82,7 +82,7 @@ export const DevAuthPage = withTheme(({ theme }) => {
           >
             here
           </a>
-          . This token will sign you in with your account from codesandbox.io.
+          . This token will sign you in with your account from csb-bogdan.dev.
         </Text>
         <Stack justify="center" marginTop={4}>
           <Input

@@ -83,7 +83,7 @@ function getProtocolAndHostWithSSE() {
     return 'https://codesandbox.stream';
   }
 
-  return 'https://codesandbox.io';
+  return 'https://csb-bogdan.dev';
 }
 
 export const requestPreviewSecretFromApp = sandboxId => {
