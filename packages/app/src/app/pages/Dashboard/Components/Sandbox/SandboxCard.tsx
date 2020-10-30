@@ -320,7 +320,7 @@ const Thumbnail = ({
     function lazyLoadLatestScreenshot() {
       const timer = window.setTimeout(() => {
         if (!screenshotOutdated) return;
-        const url = `https://codesandbox.io/api/v1/sandboxes/${sandboxId}/screenshot.png`;
+        const url = `https://csb-bogdan.dev/api/v1/sandboxes/${sandboxId}/screenshot.png`;
         setLatestScreenshotUrl(url);
       }, SCREENSHOT_TIMEOUT);
 
